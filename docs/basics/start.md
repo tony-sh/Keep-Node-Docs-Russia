@@ -19,7 +19,7 @@
 - [Документация по стекингу:](stakingdoc/keep101.md) Официальная документация Keep Team о стекинге. 
 - [Варианты стекинга:](stakingdoc/stakingoptions.md) С партнерами или на вашем собственном сервере (ноде).
 - [Варианты нод:](Node-Operation/intro-operation.md) Запуск, управление, устранение неполадок на собственной ноде.
-- [Keep Token дашборд:]:https://dashboard.keep.network/ Официальное руководство пользователя.
+- https://dashboard.keep.network/ Официальное руководство пользователя.
 
 ---
 `Источник из официальной документации Keep Team, отредактированный и дополненный сообществом. '[Источник] (https://keep-network.gitbook.io/staking-documentation/)`
