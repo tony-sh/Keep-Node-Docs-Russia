@@ -1,23 +1,23 @@
-# Introduction to tBTC & Keep Network 
+# Введение в tBTC & Keep Network 
 
 
 ## DeFi
-Decentralized Finance (DeFi) is a system of open, permissionless and interwoven financial services and products built and delivered mainly on Etherum. As of July 2020, almost $4Billion is currently deployed across all Defi applications offering loans, stable coins, derivatives, exchanges all through decentralized smart contracts. This volume is expected to grow significantly.
+Децентрализованные финансы (DeFi) это система открытых и взаиосвязанных финансовых услуг и продуктов, созданных и работающих в сети Ethereum. К июлю 2020, почти 4 миллиарда долларов задействованы во всех приложениях DeFi, предлагающих займы, токены, деривативы, обмены через децентрализованные смарт-контракты.  Этот объём продолжает расти.
 
-DeFi protocols are modular so they can stack on top of each other to build an increasingly complexer system of interoperating parts. Since DeFi products are code distributed across a decentralized blockchain like Ethereum, they can never be shut down or prohibited to those who want to use them. Thus anyone with an internet connection is able to use lending services, complex financial products, stable stores of value, and investment and trading opportunities on DeFi.
+Протоколы DeFi имеют модульную структуру, позволяющую им взаимодействовать друг с другом, создавая все более сложную систему.  Поскольку DeFi продукты - это код, который находится в сети блокчейн, такой как Эфириум(Ethereum), они никогда не смогут быть отключены или скрыты от тех, кот хочет ими воспользоваться. Таки образом, любой, кто имеет доступ в интернет, может пользоваться услугами кредитования, комплексными финансовыми продуктами,  сбережениями, инвестиционными и трейдинговыми возможностями на DeFi.
 
-## Purpose of the tBTC System
-Despite the exponential growth of the projects in Defi and Ethereum, Bitcoin still accounts for two thirds of the world’s total value in cryptocurrencies.
+## Намерения tBTC
+Несмотря на экспоненциальный рост проектов в DeFi и Эфириум, на биткоин всё-ещё приходится две трети общего объёма криптовалюты в мире.a
 
-As Ilias Hatzis introduces tBTC in his [story](https://medium.com/@iliashatzis/could-bitcoin-on-defi-displace-banks-yes-4c0ad99f0da4) :
-> “Bitcoin DeFi has been a dream for Bitcoiners. Maybe the dream is over and new tBTC project will bring Bitcoin to the DeFi world.
-> Bitcoin can greatly transform DeFi and that is exactly what the Keep team, the creators of the Keep protocol understands.” 
+Как Ильяс Хацис представляет tBTC в своем [блоге (англ.)](https://medium.com/@iliashatzis/could-bitcoin-on-defi-displace-banks-yes-4c0ad99f0da4) :
+> “Биткоин DeFi мечта биткойнеров. Можем мечта осуществилась и новый tBTC проект принесёт Bitcoin в мир DeFi.
+> Биткоин может сильно трансформировать DeFi и это прекрасно понимают в команде Keep.” 
 
-Keep Team launched tBTC, which is a decentralized, trustless and insured custody system for Bitcoin that creates TBTC Ethereum ERC-20 tokens, with a 1:1 BTC supply peg. Bitcoin holders who want to spend their BTC on Ethereum and DeFi don’t have to trust custodians, aka signers, because signers have to deposit a bond higher then the value of the BTC they hold in custody. 
+Команда Keep запустила tBTC, децентрализованную, надёжную и застрахованную систему хранения биткоинов в токенах TBTC Ethereum ERC-20, с курсом 1:1 к BTC. Владельцы биткойнов, которые хотят потратить свои BTC на Ethereum и DeFi, не должны доверять хранителям (подписанты), потому что подписывающие стороны должны внести залог, превышающий стоимость BTC, которую они держат на хранении.
 
-?> You'll want to see this excelent [tBTC Explanatory Video](https://www.youtube.com/watch?v=cfmQiArg3B8) by Artem#4718 on Discord.
+?> Превосходное [видео (англ.)](https://www.youtube.com/watch?v=cfmQiArg3B8) об этом от Artem#4718 а Discord.
 
-Signers are randomly chosen of a larger network fo signing nodes and operate in groups fo three. The bond ensures that signers behavior in the system remains honest, at risk of losing their bond in case of fraud or undercollateralization.  If signers were to move funds unauthorized, leaving more TBTC outstanding than BTC in custody, the system would confiscate their bond to buy and burn an equivalent of TBTC from the market, bringing the amount of TBTC and BTC in custody in equilibrium.
+Подписанты выбираются случайным образом из более крупной сети для подписывающих узлов и работают в группах по три. Залог гарантирует, что поведение подписывающих сторон в системе остается честным, с риском потери их залога в случае мошенничества или недостаточного обеспечения. Если подписывающие стороны переместят средства без разрешения, оставив на хранении больше TBTC, чем BTC, система конфискует их залог, чтобы купить и уничтожить эквивалент TBTC с рынка, в результате чего количество TBTC и BTC на хранении уравновесится.
 
 <p align="center">
   <img width="619" alt="Beacon" src="https://user-images.githubusercontent.com/68087535/88100735-57075f80-cb73-11ea-996f-ec2d9590b073.png">
@@ -26,39 +26,39 @@ Signers are randomly chosen of a larger network fo signing nodes and operate in 
 
 ## Keep Network
 
-tBTC is an application on [Keep Network](https://keep.network), for which Ben Longstaff gives us an excellent [description](https://medium.com/@ben_longstaff/secure-multi-party-computation-smpc-explained-visually-ecde155fc7c0):
+tBTC - это приложение в [Keep Network](https://keep.network), которому Бэн Лонгстафф дал отличное [описание (англ.)](https://medium.com/@ben_longstaff/secure-multi-party-computation-smpc-explained-visually-ecde155fc7c0):
 
-> “The Keep Network intends to become the default privacy solution for storing small, sensitive packages of data securely off-chain, and in doing so, both dramatically expand the functionality of smart contracts and the mainstream uptake of blockchain technology.”
+> “Keep Network намеревается стать решением для обеспечения конфиденциальности для безопасного хранения данных вне сети, и при этом значительно расширяет функциональность смарт-контрактов и массовое внедрение технологии блокчейн.”
 
-The Keep Network is a privacy solution where keeps hold distributed small amounts of data, such as a private key, and support interoperability across chains. Keeps are smart contracts that allow other smart contracts to interact with private data in a secure way. They are built on ECDSA, an algorithm supported by many of the top blockchains, and facilitate decentralized group signing with multi-party threshold signatures.
+Keep Network - это решение для обеспечения конфиденциальности, в котором хранятся распределенные небольшие объемы данных, такие как приватный ключ, и поддерживается взаимодействие между цепочками. Keeps - это смарт-контракты, которые позволяют другим смарт-контрактам безопасно взаимодействовать с личными данными. Они построены на ECDSA алгоритме, поддерживаемом многими ведущими блокчейнами, и облегчают подписание децентрализованных групп с помощью многосторонних пороговых подписей.
 
-The Keep Network is a [Messari](https://messari.io/article/announcement-messari-adds-11-new-disclosures-registry-participants-surpassing-50-members) Disclosure Registrant Participant. By joining this Registry these projects have committed to bringing a higher level of transparency to the cryptoasset space through ongoing disclosures.
+Keep Network в [Messari](https://messari.io/article/announcement-messari-adds-11-new-disclosures-registry-participants-surpassing-50-members) открытый зарегестрированный участник. Присоединившись к этому реестру, эти проекты взяли на себя обязательство повысить уровень прозрачности криптоактивов за счет постоянного раскрытия информации.
 
-This [Keeps Grants Explorer](https://explorer.keep-grants.info/) from MutedTommy#3155 (in Discord) keeps track of the Keep token Grants distributed so far.
+[Keeps Grants Explorer](https://explorer.keep-grants.info/) от MutedTommy#3155 (в Discord) отслеживает распределенные гранты KEEP в токенах.
 
-### t-ECDSA Node
+### t-ECDSA нода
 
-T-ECDSA keeps secure the transactions with multiple individual key shares, held independently by multiple signers. Decentralized signing is performed with sMPC ( secure multi-party computation) for computation on private key shares without revealing them. Responsibility for signatures is divided, requiring a threshold number of participants to create a signature using their key shares.
+T-ECDSA keep обеспечивает безопасность транзакций с помощью нескольких индивидуальных ключей, хранимых несколькими подписантами. Децентрализованная подпись выполняется с помощью sMPC (безопасное многостороннее вычисление) для вычислений на общих ключах, не раскрывая их. Ответственность за подписи разделена, и требуется определенное количество участников для создания подписи.
 
-In general it works like this: an Ethereum smart contract asks the Keep Network to open a new t-ECDSA keep. This keep is backed by a group of randomly selected signers from the sMPC cluster, the larger network of signing nodes. Those signers use t-ECDSA to generate the key and provide a signature. The signers can sign anything, including blockchain transactions. The Ethereum smart contract can ask the keep to sign a transaction on any blockchain-based on ECDSA, Bitcoin is just one of them.
+В общем, это работает так: смарт-контракт Ethereum просит Keep Network открыть новый t-ECDSA Keep. Это хранилище поддерживается группой случайно выбранных подписантов из кластера sMPC, более крупной сети подписывающих узлов. Эти подписывающие лица используют t-ECDSA для генерации ключа и предоставления подписи. Подписанты могут подписывать все что угодно, включая транзакции блокчейна. Смарт-контракт Ethereum может попросить keep подписать транзакцию на любом блокчейне на основе ECDSA, Биткойн - лишь один из них.
 
-This mechanism is trustless because signers are independent; they’re people and organizations running sMPC cluster nodes. 
+Этот механизм надёжн, так как подписанты независимы; это люди и организации запустившие ноду с sMPC кластером. 
 
 <p align="center">
   <img width="319" alt="Beacon" src="https://user-images.githubusercontent.com/68167410/88845610-05ca2200-d1aa-11ea-9d8b-400516fed25c.png">
 </p>
 
-### Random Beacon Node
+### Random Beacon нода
 
-Random Beacon is the other part of the network: a decentralized random selection tool for selecting signers from a pool in a cryptographically secure and decentralized way. This beacon takes the form of a BLS Threshold Relay and cannot be gamed or manipulated. It is a trusted source of randomness for the process of trustless group election. No one knows who the signers will be – including the signers themselves – until the moment they are selected by the Random Beacon. This ensures that signers are not able to collude to steal funds or attack the network, and it’s why the true randomness supplied by the beacon is so important.
+Random Beacon (случайные маяки) другая составляющая сети: децентрализованный инструмент случайного выбора подписантов способом. Этот маяк - BLSThreshold Relay, им нельзя управлять или манипулировать. Это надежный источник случайности для выбора групп. Никто не знает, кем будут подписывающие лица, включая самих подписывающих лиц, до того момента, пока они не будут выбраны случайным маяком. Это гарантирует, что подписывающие стороны не смогут вступить в сговор с целью кражи средств или атак на сеть, и именно поэтому так важна истинная случайность, предоставляемая маяком. 
 
-**The Random Beacon and t-ECDSA Keeps are the core technology of the network. Random Beacon operator and t-ECDSA client/operator, the signer, are the nodes which we operate and where we stake.**
+**Random Beacon и t-ECDSA Keeps ядро в сети Keep.**
 
 
 
 ***
 
-**Sources and further information :**
+**Источники и полезная информация :**
 - [Could Bitcoin on DeFi displace banks? Yes](https://medium.com/@iliashatzis/could-bitcoin-on-defi-displace-banks-yes-4c0ad99f0da4) by Ilias Hatzis
 - [Bridging Bitcoin and Ethereum](https://blog.keep.network/bridging-bitcoin-and-ethereum-b2f9923630a7) from the Keep Network Blog
 - [Secure Multiparty Computation](https://medium.com/@ben_longstaff/secure-multi-party-computation-smpc-explained-visually-ecde155fc7c0) by Ben Longstaff
@@ -75,5 +75,7 @@ Random Beacon is the other part of the network: a decentralized random selection
 - Images are from SpaceWalker (Discord Design Channel), [Ilias Hatzis](https://medium.com/@iliashatzis) (from his story), Keep Team (Discord Design Channel).
 
 ---
-`Written & assembled by Keep Community.`
-`Contributors: Ramaruro, EstebanK`
+`Источник из официальной документации Keep Team, отредактированный и дополненный сообществом. '[Источник] (https://keep-network.gitbook.io/staking-documentation/)`
+
+`Авторы: Ramaruro, EstebanK`
+`Перевод: tony__s_h`
