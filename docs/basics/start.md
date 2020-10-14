@@ -1,5 +1,5 @@
 
-![Intro](/assets/images/keepdocgraf.jpg)
+![Вступление](/assets/images/keepdocgraf.jpg)
 
 
 # Прежде всего
