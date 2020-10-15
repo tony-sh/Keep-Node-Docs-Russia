@@ -1,47 +1,47 @@
-# Monitoring and Remote Alerting
+# Мониторинг и оповещения
 
-This section covers the following topics related to the Nodes Automated Monitoring, Remote Alerting and Early Warning Methods.
+В этом разделе рассматриваются следующие темы, связанные с методами автоматического мониторинга нод и удаленного оповещения.
 
-**Content of this Section**
-- [Guides for Setting up Node Monitoring of Keep Nodes](https://github.com/Estebank97/Keep-Node-Operation/wiki/Monitoring-and-Remote-Alerting#guides-for-setting-up-node-monitoring-of-keep-nodes)
-- [Discord and Telegram Bots](https://github.com/Estebank97/Keep-Node-Operation/wiki/Monitoring-and-Remote-Alerting#discord-and-telegram-bots-to-get-keep-network-stats)
+**Содержание этого раздела**
+- [Гайд по настройке мониторинга Keep нод (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Monitoring-and-Remote-Alerting#guides-for-setting-up-node-monitoring-of-keep-nodes)
+- [Discord и Telegram боты (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Monitoring-and-Remote-Alerting#discord-and-telegram-bots-to-get-keep-network-stats)
 
-## Guides for Setting up Node Monitoring of Keep Nodes
-### Random Beacon Monitoring using Grafana, Prometheus, Prometheus Node Exporter, Google cAdvisor and Loki
+## Гайд по настройке мониторинга Keep нод
+### Random Beacon мониторинг, используя Grafana, Prometheus, Prometheus Node Exporter, Google cAdvisor и Loki
 - MutedTommy's [Keep Random Beacon | Node Monitoring | Part 1](https://medium.com/@hr12rtk/keep-random-beacon-node-monitoring-grafana-prometheus-and-loki-4a4b669b31ea) and [Part 2](https://medium.com/@hr12rtk/keep-random-beacon-node-monitoring-part-2-5cd037464a6e).
-This article summarises the steps used to set up the monitoring on Keep Random Beacon node using Grafana, Prometheus, Prometheus Node Exporter, Google cAdvisor and Loki.
+В этой статье кратко описаны шаги для настройки мониторинга на Keep Random Beacon ноде, используя Grafana, Prometheus, Prometheus Node Exporter, Google cAdvisor и Loki.
 
 <p align="center">
   <img width="800" src="https://user-images.githubusercontent.com/68167410/89043879-c537e900-d30e-11ea-84ad-dfbd47592d2f.png">
 </p>
 
 
-### Random Beacon and ECDSA Nodes Monitoring using Elasticsearch, Logstash, and Kibana
-- Guide to [Setting up an Elastic Stack Dashboard](https://www.notion.so/Setting-up-Elastic-Stack-Dashboard-14f9edc94418468bb95af40417a0332a) for Keep Random Beacon and ECDSA Nodes using Elasticsearch, Logstash, and Kibana
+### Random Beacon и ECDSA мониторинг нод, используя Elasticsearch, Logstash, и Kibana
+- Гайд по [Настройке Elastic Stack Dashboard (англ.)](https://www.notion.so/Setting-up-Elastic-Stack-Dashboard-14f9edc94418468bb95af40417a0332a) для Keep Random Beacon и ECDSA нод, используя Elasticsearch, Logstash, и Kibana
 
->The Elastic Stack — formerly known as the ELK Stack — is a collection of open-source software produced by Elastic which allows you to search, analyze, and visualize logs generated from any source in any format, a practice known as centralized logging. Centralized logging can be very useful when attempting to identify problems with your servers or applications, as it allows you to search through all of your logs in a single place. It’s also useful because it allows you to identify issues that span multiple servers by correlating their logs during a specific time frame.
+>Elastic Stack — также называемый ELK Stack — это подборка програмного обеспечения с открытым исходным кодом, разработанного Elastic, который позволяет вам искать, анализировать и визуализировать логи, созданные из любого источника в любом формате. Централизованное ведение логов может быть очень полезно при попытке определить проблемы с вашими серверами или приложениями, поскольку оно позволяет вам искать по всем вашим логам в одном месте. Это также полезно, поскольку позволяет выявлять проблемы, охватывающие несколько серверов, путем сопоставления их логов по определенному периоду времени.
 >
->The [Elastic Stack](https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elastic-stack-on-ubuntu-18-04#step-4-%E2%80%94-installing-and-configuring-filebeat) has four main components:
+>[Elastic Stack](https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elastic-stack-on-ubuntu-18-04#step-4-%E2%80%94-installing-and-configuring-filebeat) имеет четыре основных компонента:
 >
-> Elasticsearch: a distributed RESTful search engine which stores all of the collected data.
+> Elasticsearch: поисковая система RESTful, в которой хранятся все собранные данные.
 >
-> Logstash: the data processing component of the Elastic Stack which sends incoming data to Elasticsearch.
+> Logstash: компонент обработки данных Elastic Stack, который отправляет входящие данные в Elasticsearch.
 >
-> Kibana: a web interface for searching and visualizing logs.
+> Kibana: веб-интерфейс для поиска и визуализации логов.
 >
-> Beats: lightweight, single-purpose data shippers that can send data from hundreds or thousands of machines to either Logstash or Elasticsearch.
+> Beats: одноцелевые поставщики данных, которые могут отправлять данные с сотен или тысяч машин в Logstash или Elasticsearch.
 >
 <p align="center">
   <img width="800" src="https://user-images.githubusercontent.com/68167410/89001980-816ac280-d2c1-11ea-98f2-94e0481188fc.png">
 </p>
 
 
-## Discord and Telegram Bots to get Keep Network Stats
-There are several Bots that are being developed to be used in the [Keep Discord Channel](https://discord.com/channels/590951101600235531/709789601459339326). This is work in progress as of end of July 2020, there should be updates in the coming months.
+## Discord и Telegram для получения статистики от Keep Network
+Некоторые боты разработаны для использования в [Keep Discord Channel](https://discord.com/channels/590951101600235531/709789601459339326). В ближайшие месяцы должны появиться обновления.
 
 [KEEP BOT](https://discord.com/channels/590951101600235531/709789601459339326/735597811613302855) by StateLayer 
 
-List of bot commands 
+Список команд для бота
 Keep Network Bot (StateLayer)
 - !keep all : Show all network stats
 - !keep price: $KEEP price
@@ -55,17 +55,20 @@ Keep Network Bot (StateLayer)
 - !keep exchanges : show keep balances in exchanges
 - !keep wen ICO? : (Hint, never)
 
-Node Watcher (StateLayer)
- (possible to DM bot!)
-- !watcher summary youraddress : various stats about your signing group
-- !watcher ethbonded youraddress : Get the balance of ethbonded by your group
-- !watcher collateralratio youraddress : collateral ratio of your group
-- !watcher help : display available commands
-At "youraddress", put the ethereum adress of your signing group.
+Мониторинг нод (StateLayer)
+ (ЛС боту)
+- !watcher summary youraddress : различная статистика о вашей подписывающей группе
+- !watcher ethbonded youraddress : получить баланс, связанный с вашей группой
+- !watcher collateralratio youraddress : коэффициент залога вашей группы
+- !watcher help : показать доступные команды
+Вместо "youraddress", вставьте эфириум адресс вашей подписывающей группы.
 
-tBTC Stats (pantsme)
-Available commands: !supply, !txs, !holders, !tdt, !volume, !help
+tBTC статистика (pantsme)
+Доступные команды: !supply, !txs, !holders, !tdt, !volume, !help
 
 ---
-`Written & assembled by Keep Community.`
-`Contributors: Ramaruro, EstebanK`
+`Источник из официальной документации Keep Team, отредактированный и дополненный сообществом. '[Источник] (https://keep-network.gitbook.io/staking-documentation/)`
+
+`Авторы: Ramaruro, EstebanK`
+`Перевод: ingag`
+
