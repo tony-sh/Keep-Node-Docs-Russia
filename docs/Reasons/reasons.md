@@ -1,25 +1,27 @@
-# Key Reasons for Staking in the Keep Network
-Bitcoin "transferred" to Ethereum has been growing at an exponential rate, and we are still in the very early phases. This [Bitcoin on Ethereum site](https://btconethereum.com/) tracks the different supplies and its growth over time. There is a great opportunity to support this growth with the Keep Network.
+# Ключевые причины стейкинга в Keep Network
+Биткойн, «переведенный» в Ethereum, растет экспоненциально, и мы все еще находимся на очень ранней стадии. [Bitcoin on Ethereum site](https://btconethereum.com/) отслеживает различные запасы и их рост с течением времени. Есть прекрасная возможность поддержать этот рост с помощью Keep Network.
 
 <p align="center">
   <img width="800" src="https://user-images.githubusercontent.com/68167410/91514516-903a9a00-e8ac-11ea-800d-281f33f8c2ab.PNG">
 </p>
 
-**There are two main value propositions for the participation of individual investors as Keep Network Node Operators/Stakers:**
-* **Project Characteristics**: Sound technical approach that makes Bitcoin available for Ethereum Descentralized Finance Opportunities, preserving the Descentralized, Censorship-Resistant Characteristics that makes Bitcoin so valuable
-* **Strong Return on Investment (ROI)**: Very interesting returns possible from participating as an early Node Operator
+**Есть два основных тезиса для участия инвесторов в качестве операторов/участников Keep Network:**
+* **Характеристики проекта**: Надежный технический подход, который делает Биткойн более ценным и доступным в DeFi Эфириума, сохраняя децентрализованные и надёжные характеристики.
+* **Высокая рентабельность инвестиций (ROI)**: Очень высокие результаты на раннем участии операторов нод.
 
 
 
-## Project Characteristics: Decentralized, Censorship-Resistant Bridge from Bitcoin to Ethereum
+## Характеристики проекта: Децентрализованный, устойчивый и наддёжный мост между Bitcoin и Ethereum
 
-One of the main Value Propositions of Bitcoin is its Censorship Resistance, i.e. it offers a decentralized, trustless environment for participants to join the network and do transfers without anybody having the ability to stop you from participating. You don't have to ask for permission and nobody can deny you service. Most other value propositions from Bitcoin are derived from this property.
+Одной из основных ценностней биткойна является его устойчивость, то есть он предлагает децентрализованную среду надёжную для участников, чтобы они могли присоединиться к сети и выполнять переводы. Вам не нужно спрашивать разрешения, и никто не может отказать Вам в услугах. Большинство других ценностей биткойна основаны на этом свойстве.
 
-As the Bitcoin network is not well suite for the Descentralized Finance applications that are being built on Ethereum and other Blockchains, participants want to leverage their BTC position without selling, and therefore swapping to a supply pegged equivalent is enticing. But if this bridge across blockchains is centralized, the Censorship Resistance, Trustless aspects might be lost or are at risk of failure. 
-?> Keep Network aims to maintain the Censorship Resistant, Descentralized ethos of Bitcoin to the Bridge controlling the tokenization in Ethereum.
+Поскольку сеть биткойн не подходит для приложений DeFi, которые строятся на Ethereum и других блокчейнах,а участники хотят использовать свою позицию BTC без продажи - они используют мост (переход на альтернативу с привязкой к DeFi). Но если такой мост к блокчейн будет централизованным, аспекты надёжности и прозрачности могут быть потеряны.
+?> Keep Network стремится поддерживать надёжность и прозрачность - мост, контролирующий токенизацию в Ethereum.
 
-There are alternatives to bridge Bitcoin to Ethereum but there are multiple risks associated with those approaches; in particular, with Ren Protocol, it was recently discovered and discussed in [Twitter](https://twitter.com/ChrisBlec/status/1299029947852390406?s=20) that the Management Team controls the Wallet that holds all the Bitcoin, posing a huge risk to the Bitcoin Owners and by extension to the Decentralized Finance ecosystem that uses renBTC as collateral; as a result they issued a document on their [Path to Decentralization](https://medium.com/renproject/renvm-and-the-road-to-decentralisation-72213c3bee3a). _It is worth noting that Keep Network starts decentralized from the beginning._
+Существуют альтернативы мостов Биткойна с Эфириумом, но с этими подходами связано множество рисков; в частности, с протоколом Ren, это недавно было обнаружено и обсуждалось в [Twitter](https://twitter.com/ChrisBlec/status/1299029947852390406?s=20) - команда управления контролирует кошелек, в котором хранятся все биткойны, что создает огромный риск для владельцев биткойнов и, как следствие, для экосистемы DeFi, которая использует renBTC в качестве обеспечения; в результате они опубликовали документ: [Path to Decentralization](https://medium.com/renproject/renvm-and-the-road-to-decentralisation-72213c3bee3a). _Стоит отметить, что Keep Network с самого начала запускается децентрализованно._
 
 ---
-`Written & assembled by Keep Community.`
-`Contributors: Ramaruro, EstebanK`
+`Источник из официальной документации Keep Team, отредактированный и дополненный сообществом. '[Источник] (https://keep-network.gitbook.io/staking-documentation/)`
+
+`Авторы: Ramaruro, EstebanK`
+`Перевод: tony__s_h`
