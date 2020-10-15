@@ -4,12 +4,12 @@
 ![logok](https://user-images.githubusercontent.com/68087535/91909888-67d3e680-ec84-11ea-8e43-203fced81216.png)
 # Keep Network
 
-> Community Curated Documentation
+> Документация, курируемая сообществом
 
-- Staking in Keep Network
-- Explanation, Roi, Comparisons & Options
-- Rewards, Economics, Slashing & Liquidation
-- Node Deployment, Operation, Troubleshooting & Risk Mitigation
+- Стейкинг в Keep Network
+- Объяснения, РОИ, сравнения и варианты
+- Вознаграждения, Экономика, Обеспечение и Ликвидация
+- Запуск нод, Операции, Устранение рисков и неполадок
 
 
 [GitHub](https://github.com/Estebank97/Keep-Node-Docs/)
