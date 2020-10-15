@@ -1,78 +1,78 @@
-# Strong Return on Investment (ROI)
-There are two main phases for generating strong returns while operating Keep Network Nodes:
-* **Network Bootstrapping with Subsidies** 
-* **Network in full Production**
+# Высокая рентабельность инвестиций (ROI)
+Есть два основных этапа получения высокой прибыли во время работы с Keep Network нодами:
+* **Загрузка сети с субсидиями** 
+* **Сеть в полной производстве**
 
 
-## Network Bootstrapping with Subsidies
-There is a strong [staking reward subsidy](https://keep-network.gitbook.io/staking-documentation/keep-network-staking/staking-reward-subsidy#keep-holders-stakedrop-subsidy) for early participants that help bootstrap the Network:
+## Загрузка сети с субсидиями
+Есть высокие [стейкинг субсидии](https://keep-network.gitbook.io/staking-documentation/keep-network-staking/staking-reward-subsidy#keep-holders-stakedrop-subsidy) для участник, помогающих запустить сеть на раннем этапе:
 
-|**Total KEEP [Supply](https://etherscan.io/token/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec)**|**1,000,000,000 KEEP**|
+|**Всего KEEP [Запас](https://etherscan.io/token/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec)**|**1,000,000,000 KEEP**|
 | --- | --- |
-| **StakeDrop Subsidies for Random Beacon**|**20,000,000 KEEP (2%)**|
-| **StakeDrop Subsidies for ECDSA**|**180,000,000 KEEP (18%)**|
+| **Стейкдроп субсидии для Random Beacon**|**20,000,000 KEEP (2%)**|
+| **Стейкдроп субсидии для ECDSA**|**180,000,000 KEEP (18%)**|
 
 
-The Subsidies will be distributed following the schedule shown below.
+Субсидии будут распределяться в соответствии с графиком, показанным ниже.
 <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/68167410/91521843-45c21900-e8be-11ea-83cc-0d26b0a42fc4.png">
 </p>
 
-> The mechanics of rewards distribution are further explained in this [article](https://medium.com/@ben_longstaff/crypto-yield-farmers-take-note-understanding-the-tbtc-and-keep-network-rewards-mechanics-6042e9dc5d97) by Ben Longstaff, and the distribution contract code can be found [here](https://github.com/keep-network/keep-core/pull/1863).
+> Механизм распределения субсилий описан в этой [статье (англ.)](https://medium.com/@ben_longstaff/crypto-yield-farmers-take-note-understanding-the-tbtc-and-keep-network-rewards-mechanics-6042e9dc5d97) Бэном Лонгстаффом, и код контракта распределения можно найти [тут](https://github.com/keep-network/keep-core/pull/1863).
 
-### The estimated Subsidy Rewards ROI are as follows:
+### Предполагаемая рентабельность инвестиций в субсидии составляет::
 
-**Random Beacon Node**
+**Random Beacon нода**
 
-To participate as a Random Beacon Node Operator, your Minimum Investment is 90,000 KEEP; it is a significant investment and this will reduce the number of participants for this operation. 
+Для участиников, в качестве оператора ноды Random Beacon, минимальная инвестиция 90,000 KEEP; это значительные инвестиции, и это уменьшит количество участников.
 
-We define two scenarios, depending on the number of Nodes that participate. It is difficult to estimate how many nodes will be on Mainnet, but based on the high initial investement, it is likely that the actual number of participants fall somewhere in between 10 and 200 Nodes.
-Note that the investment is in KEEP and the rewards are in KEEP.
+Мы видим два сценария в зависимости от количества участвующих нод. Трудно предположить, сколько узлов будет в Mainnet, но, учитывая высокие начальные инвестиции, вполне вероятно, что фактическое количество участников будет где-то между 10 и 200 .
+Обратите внимание, что инвестиции делаются в KEEP и вознаграждения тоже в KEEP.
 
 <p align="center">
   <img width="800" src="https://user-images.githubusercontent.com/68167410/91620068-83718100-e954-11ea-99f9-6e47559886ad.png">
 </p>
 
-**ECDSA Node**
+**ECDSA нода**
 
-To participate as an ECDSA Node Operator, the Minimum Investment should be 150% of the smallest tBTC Minting Unit. Bigger stakes have a higher chance of being selected for Minting. The barrier to entry is much lower as with the Random Beacon Node and there should be a bigger number of Nodes that participate.
+Для участия в качестве оператора ноды ECDSA минимальные инвестиции должны составлять 150% от минимальной единицы минта tBTC.  Барьер для входа намного ниже, чем в случае Random Beacon, и должно быть большее количество нод, которые участвуют.
 
-Note that the investment is in ETH or in KEEP and the rewards are in KEEP, so the exchange rate between ETH and KEEP plays into the equation.
-It is unclear how the subsidies are actually being distributed in terms of the minting/burning activity. Higher stakes are more likely to be selected. The scenarios below assume equal stakes per Node which will not be the case for sure, so this is just a guidance of what rewards could be.
+В приведенных ниже сценариях предполагается, что ставки на ноды равны, что не всегда верно, поэтому это всего лишь руководство к тому, какими могут быть вознаграждения.
 
-The 100 tBTC Cap will be lifted once the network is up and running for a prudent time and no major issues are seen. After that, to earn rewards, it probably will be important to increase the Stake to have more chances of minting tBTC.
+Лимит в 100 tBTC будет снят, как только сеть будет запущена и будет работать в течение какого-то времени в течении которого не будет замечено никаких серьезных проблем. После этого для получения вознаграждения, вероятно, будет важно увеличить ставку, чтобы иметь больше шансов на минт tBTC.
 
 <p align="center">
   <img width="800" src="https://user-images.githubusercontent.com/68167410/91620194-d64b3880-e954-11ea-9c7a-c27717f0d711.png">
 </p>
 
-## Network in full Production
-Fees generated for Minting/Burning while operating the Nodes will lead to an attractive return once the overall volume of transfers achieves full Production levels (up to Market Demand)
+## Сеть в полном производстве
+Комиссионные, генерируемые за минтинг во время работы нод, приведут к  прибыли, как только общий объем транзакций достигнет полного уровня производства (до рыночного спроса)
 
-### Random Beacon Node ROI in Full Production
+### Random Beacon нод ROI в полном производстве
 
-Below are the results for a Random Beacon Node Operator in several scenarios. The results are attractive if there is high demand for the service.
+Ниже приведены результаты для оператора ноды Random Beacon в нескольких сценариях. Результаты положительные, если есть высокий спрос на услугу.
 
-It is still to be defined what the actual Fee for the Service will be. In the [Random Beacon Staking Rewards](https://keep-network.gitbook.io/staking-documentation/keep-network-staking/keep-and-tbtc-staking-rewards#random-beacon-rewards) document it indicates that Fees could be between $10 and $50 per transaction, so we use both scenarios.
+Какая будет фактическая плата за услугу, еще предстоит определить. [Random Beacon Staking Rewards](https://keep-network.gitbook.io/staking-documentation/keep-network-staking/keep-and-tbtc-staking-rewards#random-beacon-rewards) в документе указано, что комиссии могут составлять от 10 до 50 долларов за транзакцию, поэтому мы используем оба сценария.
 <p align="center">
   <img width="800" src="https://user-images.githubusercontent.com/68167410/91620497-c4b66080-e955-11ea-9025-21ca3a32bdf7.png">
 </p>
 
-### ECDSA Node ROI in Full Production
+### ECDSA нод ROI в полном производстве
 
-Here are the results for an ECDSA Node Operator in several scenarios. It is still to be defined what the actual Fee for the Service will be. In the [ECDSA Node Staking Rewards](https://keep-network.gitbook.io/staking-documentation/keep-network-staking/keep-and-tbtc-staking-rewards#t-ecdsa-tbtc-rewards) document it indicates that Fees start at 5bps (Basis Points), that means 0.05% of the Value Transferred.
+Ррезультаты для оператора ноды ECDSA Node Operator в нескольких сценарияхs. It is still to be defined what the actual Fee for the Service will be.Какая будет фактическая плата за услугу, еще предстоит определить. [ECDSA Node Staking Rewards](https://keep-network.gitbook.io/staking-documentation/keep-network-staking/keep-and-tbtc-staking-rewards#t-ecdsa-tbtc-rewards) Указано, что комиссии начинаются с 5bps(basis points), что означает 0,05% от передаваемой стоимости.
 
-The results are less attractive due to the following facts:
+Результаты менее привлекательны из-за следующих фактов:
 
-* The high collateral requirements (150% of the Value Transferred)
-* A tBTC minted can be held for up to 6 months, with no accrual of interest during that time. 
+* Высокие требования к залоговому обеспечению (150% от передаваемой стоимости)
+* Заминченные tBTC могут храниться до 6 месяцев без начисления процентов.
 
 <p align="center">
   <img width="800" src="https://user-images.githubusercontent.com/68167410/91621001-317e2a80-e957-11ea-8200-a6a1e0a553d7.png">
 </p>
 
-!> **Note for Keep Team:** We suggest to add a fee (interest) that accrues linearly with time for the investment, in addition to the fees for minting and burning, to improve return for stakers.
 
 ---
-`Written & assembled by Keep Community.`
-`Contributors: Ramaruro, EstebanK`
+`Источник из официальной документации Keep Team, отредактированный и дополненный сообществом. '[Источник] (https://keep-network.gitbook.io/staking-documentation/)`
+
+`Авторы: Ramaruro, EstebanK`
+`Перевод: tony__s_h`
