@@ -3,14 +3,14 @@
 	- [Знакомство с Keep Network & tBTC](basics/intro.md)
 	- [Инструменты сообщества Keep](basics/tools.md)
 
-- **Ключевые причины для стекинга в Keep Network**
+- **Ключевые причины для стейкинга в Keep Network**
 	- [Характеристики проекта](Reasons/reasons.md)
 	- [Высокая рентабельность инвестиций](Reasons/roi.md)
 
 - [**Сравнение альтернатив**](comparison/comparesimilar.md)
 	
 
-- **Стекинг документация**
+- **Стейкинг документация**
 	- [Keep Network 101](stakingdoc/keep101.md)
 	- [Стейкинг вознаграждения](stakingdoc/rewards.md)
 	- [Ликвидация](stakingdoc/slashing.md)
