@@ -1,31 +1,31 @@
-- **Getting Started**
-	- [Basic Description - TLDR](basics/start.md)
-	- [Introduction to Keep Network & tBTC](basics/intro.md)
-	- [Community Tools](basics/tools.md)
+- **Вводная информация**
+	- [Базовое описание - TLDR](basics/start.md)
+	- [Знакомство с Keep Network & tBTC](basics/intro.md)
+	- [Инструменты сообщества Keep](basics/tools.md)
 
-- **Key Reasons for Staking in Keep Network**
-	- [Project Characteristics](Reasons/reasons.md)
-	- [Strong Return on Investment](Reasons/roi.md)
+- **Ключевые причины для стекинга в Keep Network**
+	- [Характеристики проекта](Reasons/reasons.md)
+	- [Высокая рентабельность инвестиций](Reasons/roi.md)
 
-- [**Staking Alternatives Comparison**](comparison/comparesimilar.md)
+- [**Сравнение альтернатив**](comparison/comparesimilar.md)
 	
 
-- **Staking Documentation**
+- **Стекинг документация**
 	- [Keep Network 101](stakingdoc/keep101.md)
-	- [Staking Rewards](stakingdoc/rewards.md)
-	- [Slashing & Liquidation](stakingdoc/slashing.md)
-	- [Staking Economics](stakingdoc/economics.md)
+	- [Стейкинг вознаграждения](stakingdoc/rewards.md)
+	- [Ликвидация](stakingdoc/slashing.md)
+	- [Экономика стейкинга](stakingdoc/economics.md)
 
-- **Staking Alternatives**
-	- [Staking with a provider](stakingdoc/stakingoptions.md)
-	- [Staking in House - Running your own Nodes](stakingdoc/stakingoptions.md)
+- **Альтернативы стейкинга**
+	- [Стейкинг у провайдера](stakingdoc/stakingoptions.md)
+	- [Стейкинг дома - запуск собственных нод](stakingdoc/stakingoptions.md)
 
-- **Node Operation**
-  - [Intro](Node-Operation/intro-operation.md)
-  - [Deploy your Nodes](Node-Operation/deploy.md)
-  - [Mainnet Node Operation](Node-Operation/mainnet.md)
-  - [Manage your Nodes](Node-Operation/manage.md)
-  - [Troubleshooting](Node-Operation/troubleshooting.md)
-  - [Monitoring and Remote Alerting](Node-Operation/monitoring.md)
-  - [Risk Mitigation](Node-Operation/risks.md)
-  - [Useful Links](Node-Operation/links.md)
+- **Операции по нодам**
+  - [Интро](Node-Operation/intro-operation.md)
+  - [Запуск Ваших нод](Node-Operation/deploy.md)
+  - [Операции в Mainnet](Node-Operation/mainnet.md)
+  - [Управление нодой](Node-Operation/manage.md)
+  - [Исправление проблем](Node-Operation/troubleshooting.md)
+  - [Мониторинг и уведомления](Node-Operation/monitoring.md)
+  - [Устранение рисков](Node-Operation/risks.md)
+  - [Полезные ссылки](Node-Operation/links.md)
