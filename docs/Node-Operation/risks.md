@@ -1,55 +1,58 @@
-# Risk Mitigation for Node Operators
+# Снижение рисков для операторов нод
 
-Operating Keep Nodes imply risks, as there are Collateralization and Availability requirements that must be met to avoid being penalized.
-This section covers topics related to understanding and mitigating the risks of operating a Keep Poduction System.
+Эксплуатация Keep нод сопряжена с рисками, поскольку существуют требования к обеспечению и доступности, которые должны быть выполнены.
+В этом разделе рассматриваются темы, связанные с пониманием и снижением рисков, связанных с эксплуатацией Keep Poduction System.
 
-**Content of this Section**
-- [Main Risks for Operating Keep Nodes](https://github.com/Estebank97/Keep-Node-Operation/wiki/Risk-Mitigation-for-Node-Operators#main-risks-for-operating-keep-nodes)
-- [Undercollateralization Prevention](https://github.com/Estebank97/Keep-Node-Operation/wiki/Risk-Mitigation-for-Node-Operators#undercollateralization-prevention) 
-- [High Availability](https://github.com/Estebank97/Keep-Node-Operation/wiki/Risk-Mitigation-for-Node-Operators#main-risks-for-operating-keep-nodes)
-    - [General Considerations from the Keep Team](https://github.com/Estebank97/Keep-Node-Operation/wiki/Risk-Mitigation-for-Node-Operators#general-considerations-from-the-keep-team)
-    - [Kubernetes Based Deployment](https://github.com/Estebank97/Keep-Node-Operation/wiki/Risk-Mitigation-for-Node-Operators#kubernetes-based-deployment)
+**Содержание этого раздела**
+- [Основные риски при эксплуатации Keep нод (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Risk-Mitigation-for-Node-Operators#main-risks-for-operating-keep-nodes)
+- [Предотвращение недостаточного обеспечния (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Risk-Mitigation-for-Node-Operators#undercollateralization-prevention) 
+- [Высокая доступность (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Risk-Mitigation-for-Node-Operators#main-risks-for-operating-keep-nodes)
+    - [Общие соображения о Keep Team (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Risk-Mitigation-for-Node-Operators#general-considerations-from-the-keep-team)
+    - [Размещение на базе Kubernetes (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Risk-Mitigation-for-Node-Operators#kubernetes-based-deployment)
 
-## Main Risks for Operating Keep Nodes
-From the currrent understanding and Operation of the Keep System in Testnet, we can see two main risks for the Operator to lose a portion or all of the funds staked to support the tBTC Bridge:
-* Undercollateralization and Liquidation
-* Node Downtime
+## Основные риски при эксплуатации Keep нод
+Исходя из текущего понимания и функционирования системы Keep в Testnet, мы видим два основных риска для оператора потерять часть или все средства, вложенные в поддержку моста tBTC:
+* Недостаточное обеспечение и ликвидация
+* Простой ноды
 
-The current understanding indicates that the Undercollateralization is a more acute problem than the Node Downtime. Uptime for Nodes in Testnet is high and other than upgrades to the software or issue with the VPS provider, it doesn't seem a high risk to the operation. It can also be mitigated with a redundant node installation managed with Kubernets (see below).
-However, Undercollateralization seems a bigger problem as it is less controllable and there is no automated way to protect this situation yet other than manual intervention.
-
-
-## Undercollateralization Prevention
-We discuss this situation in detail in this same document, in the [Undercollateralization and Liquidation](https://github.com/Estebank97/Keep-Node-Operation/wiki/Manage-your-Nodes#undercollateralization-and-liquidation) section.
-The main reason for this problem is the Volatility in the ETH/BTC price relationship, bringing relative price of ETH to BTC down. Alerts need to be enabled to monitor this relation to then manually add ETH for collateral.
-
-We expect this to be a significant problem and additional automation available from the Keep Dashboard should be enabled, for example, provide reserve collateral that can be used as needed. No plans for this functionality are available as of August 2020.
+Текущее понимание указывает на то, что недостаточная обеспеченность является более острой проблемой, чем простои ноды. Время безотказной работы ноды в тестовой сети велико, и, кроме обновлений программного обеспечения или проблем с поставщиком VPS, это не является высоким риском для работы. Риск также может быть смягчен с помощью установки дополнительной ноды, управляемой с помощью Kubernetes (см. ниже).
+Однако недостаточное обеспечение кажется более серьезной проблемой, поскольку она менее контролируема, и нет никакого автоматизированного способа исправить ситуацию, кроме ручного вмешательства.
 
 
-## High Availability
-### General Considerations from the Keep Team
-The Keep Team wrote a detailed document that addresses many aspects of running a [Keep ECDSA Node](https://github.com/keep-network/keep-ecdsa/blob/master/docs/run-keep-ecdsa.adoc#run-ecdsa-keep) with high availability
+## Предотвращение недостаточного обеспечния
+Мы подробно обсуждаем эту ситуацию в документе [Undercollateralization and Liquidation](https://github.com/Estebank97/Keep-Node-Operation/wiki/Manage-your-Nodes#undercollateralization-and-liquidation) .
+Основной причиной этой проблемы является волатильность ценового соотношения ETH/BTC, приводящая к снижению относительной цены ETH к BTC. Оповещения должны быть включены для мониторинга этого отношения, чтобы затем вручную добавить ETH для обеспечения.
 
->The Keep Network expects certain capabilites for each node running on the network. To help attain these capabilities consider the following criteria:
+Мы ожидаем, что это станет существенной проблемой, и следует включить дополнительную автоматизацию, доступную в Keep Dashboard. Например, обеспечить резервный залог, который можно использовать по мере необходимости. По состоянию на август 2020 года никаких планов по этой функциональности не существует.
+
+
+## Высокая доступность
+### Общие соображения о Keep Team
+Команда Keep написала подробный документ, в котором рассматриваются многие аспекты запуска [Keep ECDSA ноды (англ.)](https://github.com/keep-network/keep-ecdsa/blob/master/docs/run-keep-ecdsa.adoc#run-ecdsa-keep) с высокой доступностью.
+
+>Keep Network ожидает определенных результатов для каждой ноды, работающей в сети. Чтобы помочь достичь этих результатов рассмотрим следующие критерии:
 >
->* It is paramount that Keep nodes remain available to the Keep Network. We strongly encourage a stable and redundant internet connection.
+>* Важно держать ноды онлайн. Мы настоятельно рекомендуем стабильное и резервное подключение к интернету.
 >
->* A connection to a production grade self-hosted or third party Ethereum node deployment.
+>* Подключение к ноде Ethereum производственного уровня на собственном хостинге.
 >
->* Persistent and redundant storage that will survive a VM or container rotation, and disk failure.
+>* Постоянное и резервное хранилище, которое выдержит замену виртуальной машины, а также отказ диска.
 >
->* Each Keep ECDSA client running on the network requires a unique Ethereum operator account.
+>* Каждый Keep ECDSA клиент, работающий в сети, требует наличия уникальной учетной записи оператора Ethereum.
 >
->* Each Keep ECDSA client running on the network requires a unique IP address or a unique application port running under the same IP.
+>* Каждый Keep ECDSA клиент, работающий в сети, требует уникального IP-адреса или уникального порта приложения, работающего под тем же IP-адресом.
 
 
 
-### Kubernetes Based Deployment
-To ensure High Availability of a Keep Production System by introducing Node Redundancy, a [Kubernetes](https://kubernetes.io/) based deployment is recommended. 
-Refer to the [Kubernetes Deployment Section](https://github.com/Estebank97/Keep-Node-Operation/wiki/Deploy-your-Node#kubernetes-installation-guide-for-ecdsa-nodeode) for installation instructions. 
+### Размещение на базе Kubernetes 
+Гарантировать высокую доступность в Keep Production System путём введения резервных нод, путём размещения на базе [Kubernetes](https://kubernetes.io/). 
+[Kubernetes Deployment Section (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Deploy-your-Node#kubernetes-installation-guide-for-ecdsa-nodeode) - инструкция по установке.
 
-This detailed document from the Keep Team provides a lot of information about the ECDSA Node  [Run ECDSA Keep](https://github.com/keep-network/keep-ecdsa/blob/master/docs/run-keep-ecdsa.adoc#5-deployment-consideration)
+Детализированый документ от команды Keep Team с информацией о ECDSA Node  [Run ECDSA Keep (англ.)](https://github.com/keep-network/keep-ecdsa/blob/master/docs/run-keep-ecdsa.adoc#5-deployment-consideration)
 
 ---
-`Written & assembled by Keep Community.`
-`Contributors: Ramaruro, EstebanK`
+`Источник из официальной документации Keep Team, отредактированный и дополненный сообществом. '[Источник] (https://keep-network.gitbook.io/staking-documentation/)`
+
+`Авторы: Ramaruro, EstebanK`
+`Перевод: ingag`
+
