@@ -1,49 +1,48 @@
 # Keep Network 101
 
-The Keep Network is a privacy solution where "keeps" hold distributed small amounts of data, such as a private key. The Random Beacon and t-ECDSA Keeps are the core technology of the network.
+Keep Network - это решение для обеспечения конфиденциальности, в котором «хранятся» распределенные небольшие объемы данных, например, приватный ключ. Random Beacon и t-ECDSA Keeps - это основная технология сети.
 
-## What is a Keep?
-A keep is up to 1MB of encrypted storage that is distributed across one or more keep providers, or members. A keep provider is one economic entity in the Keep Network; they have a stake and must participate in a signing group as a single member. 
+## Что такое Keep?
+Keep - это до 1 МБ зашифрованного хранилища, которое распределяется между одним или несколькими провайдерами или участниками. Провайдер Keep - это один экономический субъект в Keep Network; у него есть доля и он может участвовать, как подписант, в подписывающей группе
 
-The Keep Network's native token is KEEP. It powers the network and undergirds all the apps that are and will be built on it.
+KEEP - основной токен сети Keep Network. Все приложения в сети построены или будут построены на нем.
 
-The Keep Network requires a trusted source of randomness for the process of trustless group election. Member selection for a keep is chosen at random. This trusted source of randomness takes the form of a BLS Threshold Relay, otherwise known as the Random Beacon.
+Keep Network основывается на надежном источнике случайности для процесса формирования подписывающих групп. Отбор подписантов происходит случайным образом. Этот надежный источник случайности - BLS Threshold Relay, также называемый Random Beacon.
 
-## What is the Random Beacon?
-At the core of Keep’s solution is the ability to keep small amounts of data (such as a private key) actually private. This is why true randomness is so important. All parties would have to collude to know what a user is working on, and collusion becomes almost impossible when member selection is truly random.
+## Что такое Random Beacon?
+В основе решения Keep лежит возможность хранить в тайне небольшие объемы данных (например, приватный ключ). Вот почему так важна истинная случайность. Все стороны должны будут вступить в сговор, чтобы узнать, над чем работает пользователь, и сговор становится почти невозможным, когда выбор участников действительно случайный.
+Random Beacon - это способ создания, поддающейся проверке, случайности, устойчивой к злоумышленникам как в сети, так и в цепочке Ethereum. Он используется для определения членов для подписывающих групп.
 
-The Random Beacon is a way of generating verifiable randomness that is resistant to bad actors both in the relay network and on the anchoring blockchain, assumed here to be Ethereum. It is used to determine member selection for signing groups.
+> Прочесть больше о Random Beacon можно в технической документации.
 
-> Read more about the Random Beacon in the technical documentation.
+Никто не знает, кем будут подписанты, включая самих подписантов, до того момента, пока они не будут выбраны с помощью Random Beacon. Это гарантирует, что подписанты не смогут вступить в сговор с целью кражи средств или атак на сеть, и именно поэтому так важна истинная случайность, предоставляемая маяком.
 
-No one knows who the signers will be – including the signers themselves – until the moment they are selected by the Random Beacon. This ensures that signers are not able to collude to steal funds or attack the network, and it’s why the true randomness supplied by the beacon is so important.
+Ключевым способом обеспечения надежности tBTC, первого приложения созданного на основе Keep Network, является устранение риска контрагента. Он использует систему групп подписантов, которая позволяет tBTC обрабатывать транзакции без доверенного посредника. Поэтому выбор подписывающей стороны имеет важное значение для надлежащего функционирования tBTC и создания хранилищ t-ECDSA.
 
-A key way tBTC, the first application built on the Keep Network, ensures trustlessness is by addressing counterparty risk. It uses a system of signers’ groups that allows tBTC to process transactions without a trusted middleman. Signer selection is therefore essential to tBTC’s proper functioning and the creation of t-ECDSA Keeps.
+## Что такое t-ECDSA Keeps?
+t-ECDSA keep - это технология, лежащая в основе tBTC, первого приложения, построенного на Keep Network.
 
-## What are t-ECDSA Keeps?
-t-ECDSA keeps are the underlying technology of tBTC, the first application built on the Keep Network.
+> Прочесть больше о tBTC можно в технической документации.
 
-> Read more about tBTC in the technical documentation.
+Реализованный с помощью sMPC, t-ECDSA keep позволяет контрактам обмениваться данными между цепочками путем подписания транзакций с рядом географически распределенных лиц (подписантов). T-ECDSA обеспечивает безопасность транзакций с помощью нескольких отдельных приватных ключей, независимо хранимых несколькими подписантами.
 
-Implemented with secure multi-party computation (sMPC), t-ECDSA keeps make it possible for contracts to communicate cross-chain by signing transactions between chains with a number of geographically distributed threshold signers. T-ECDSA keeps secure the transactions with multiple individual key shares, held independently by multiple signers. 
+Децентрализованная подпись выполняется с помощью sMPC для вычисления общих приватных ключей без их раскрытия. Ответственность за подписи разделена, и требуется определенное количество участников для создания подписи с использованием своих ключей.
 
-Decentralized signing is performed with sMPC for computation on private key shares without revealing them. Responsibility for signatures is divided, requiring a threshold number of participants to create a signature using their key shares.
+### Хотите узнать о планах по созданию других кросс-чейн токенов? 
+Пока нет твердых планов построить мост к другим сетям. Тем не менее, Cross-Chain Group вела переговоры с такими сетями, как Cosmos, Zcash и Polkadot, по поводу этого.
 
-### Curious about plans to build other cross-chain tokens? 
-There are no firm plans yet to build a bridge on other chains. However the Cross-Chain Group has had early conversations with chains like Cosmos, Zcash, and Polkadot on trustless bridge designs.
+## KEEP: Keep Network токен
+Баланс токенов KEEP необходим для того, чтобы стать участником Keep Network. Участники имеют право получать вознаграждения, выполняя работу на платформе. Это ключевой стимул, который стимулирует конструктивное поведение, способствует эффективности и доверию, а также способствует принятию и росту Keep Network.
 
-## KEEP: Keep Network Token
-A balance of KEEP tokens is required in order for someone to become a member of the Keep Network. Members are eligible to earn rewards by performing work on the platform. This is the key incentive that drives constructive behavior, facilitates efficiency and trust, and promotes the adoption and growth of the Keep network.
+KEEP - это рабочий токен, владение которым дает право выполнять ключевые функции в сети. Держатели токенов должны делегировать минимальную сумму KEEP в качестве обеспечения, чтобы иметь право на участие.
 
-KEEP is a work token — holding it confers the right to perform key functions on the network. Token holders must delegate a minimum amount of KEEP as collateral in order to be eligible. 
+Объем работы, для которой выбирается делегат, будет пропорционален количеству делегированных KEEP. Например, человек, делегирующий 1000 KEEP, со временем может ожидать, что его будут отбирать для работы в десять раз чаще, чем человека, делегирующего 100 KEEP, и получать вознаграждение пропорционально работе, которую он успешно выполняет.
 
-Work opportunities are awarded randomly, but over time, and the amount of work a delegator is chosen for will be proportional to the amount of KEEP delegated. For example, a person delegating 1,000 KEEP could expect, over time, to be selected for work ten times as often as someone who delegates 100 KEEP, earning fees in proportion to the work they successfully perform.
+## Награды и сокращения
+Преимущество токенов KEEP для держателей зависит от суммы делегированной доли. Идея в том, что те, у кого больше доля, получат больше награды.
 
-## Rewards and Slashing
-The benefit KEEP tokens confer to holders is relative to the amount of stake delegated and therefore to the user’s commitment to the network. The idea is that those with more “skin in the game” reap greater rewards. 
-
-Slashing in the Keep and tBTC systems is not designed to be punitive, and is rather to protect the security of the network from malicious behaviors. 
-
-Continue to the next section to learn more about the specifics of rewards and slashing.
+Сокращение в системах Keep и tBTC не предназначено для наказания, а скорее предназначено для защиты безопасности сети от злонамеренного поведения.
+Перейдите к следующему разделу, чтобы узнать больше об особенностях наград и сокращений.
 
 `Sourced from Keep Team's official documentation.`[Source](https://keep-network.gitbook.io/staking-documentation/)
+`Translator: tony__s_h`
