@@ -1,17 +1,17 @@
-# Troubleshooting
+# Исправление проблем
 
-This section shows how to deal with some common error and warnings and how to troubleshoot them.
+В этом разделе показано, как бороться с некоторыми распространенными ошибками и предупреждениями, а также как их устранять.
 
-**Content of this Section**
-- [Introduction and Log Access](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#introduction-and-log-access)
-- [Common Errors and Warnings](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#common-errors-and-warnings) 
-    - [Just ignore these WARNINGS](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#just-ignore-these-warnings)
-    - [Config.toml File errors](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#configtoml-file-errors)
-    - [Errors after updating addresses inside Config.toml](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#errors-after-updating-addresses-inside-configtoml)
-    - [Errors from Token Delegation / Contracts authorization](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#errors-from-token-delegation--contracts-authorization)
-- [Other Warnings](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#other-warnings)
+**Содержание раздела**
+- [Introduction and Log Access (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#introduction-and-log-access)
+- [Common Errors and Warnings (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#common-errors-and-warnings) 
+    - [Just ignore these WARNINGS (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#just-ignore-these-warnings)
+    - [Config.toml File errors (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#configtoml-file-errors)
+    - [Errors after updating addresses inside Config.toml (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#errors-after-updating-addresses-inside-configtoml)
+    - [Errors from Token Delegation / Contracts authorization (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#errors-from-token-delegation--contracts-authorization)
+- [Other Warnings (англ.)](https://github.com/Estebank97/Keep-Node-Operation/wiki/Troubleshooting#other-warnings)
 
-## Introduction and Log Access
+## Введение и доступ к логам
 **First of all: make sure that you are running the latest versions of clients with the latest contracts. Having connected peers + infura queries is the key to success.**
 
 You can check the logs for each node with these commands :`docker logs *node-name*`
@@ -92,5 +92,7 @@ Problem is on-chain, something to do with trying to join the bonded sortition po
 !> @Nico186 made this excelent [document](https://docs.google.com/document/u/2/d/e/2PACX-1vRYtVyLSwuNBL9Xk-M1HeHloJ7MIGqwiEzsuXYnKHQqnSz2gfd2Q3czJeOzEferPKIr7GvIznQxsckb/pub) about interpreting KEEP Error and Warning Logs.
 
 ---
-`Written & assembled by Keep Community.`
-`Contributors: Ramaruro, EstebanK`
+`Источник из официальной документации Keep Team, отредактированный и дополненный сообществом. '[Источник] (https://keep-network.gitbook.io/staking-documentation/)`
+
+`Авторы: Ramaruro, EstebanK`
+`Перевод: tony__s_h`
