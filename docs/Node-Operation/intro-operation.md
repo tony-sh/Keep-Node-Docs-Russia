@@ -3,16 +3,18 @@
 </p>
 
 
-# Keep Nodes Operation 
-### A complete repository with everything you need to run your Keep Random Beacon and ECDSA Nodes
-- This Keep Community Project is to consolidate all info around for new and existing Keep Node owners.
-- It has everything you need to know about deploying and managing Keep Network nodes.
-- Everybody is welcome to review, enhance and add curated data to this repository!
+# Операции в Keep ноде
+### Полный репозиторий со всем необходимым для запуска вашего Keep Random Beacon и ECDSA нод
+- Этот проект сообщества Keep предназначен для объединения всей информации для новых и существующих владельцев нод Keep.
+- В нем есть все, что вам нужно знать о запуске и управлении нодами в Keep Network.
+- Каждый может просматривать, улучшать и добавлять данные в этот репозиторий!
 
 ---
 
-`Written & assembled by Keep Community.`
-`Contributors: Ramaruro, EstebanK`
+`Источник из официальной документации Keep Team, отредактированный и дополненный сообществом. '[Источник] (https://keep-network.gitbook.io/staking-documentation/)`
+
+`Авторы: Ramaruro, EstebanK`
+`Перевод: tony__s_h`
 
 
 
