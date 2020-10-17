@@ -21,3 +21,4 @@
 [:de:](https://tony-sh.github.io/Keep-Node-Docs-German/#/)
 [:fr:](https://tony-sh.github.io/Keep-Node-Docs-French/#/)
 [:cn:](https://tony-sh.github.io/Keep-Node-Docs-Chinese/#/)
+[:indonesia:](https://tony-sh.github.io/Keep-Node-Docs-Indonesia/#/)
