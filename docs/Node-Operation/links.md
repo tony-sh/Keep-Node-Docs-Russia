@@ -30,5 +30,5 @@
 `Источник из официальной документации Keep Team, отредактированный и дополненный сообществом. '[Источник] (https://keep-network.gitbook.io/staking-documentation/)`
 
 `Авторы: Ramaruro, EstebanK`
-`Перевод: tony__s_h`
+`Перевод: ingag`
 
